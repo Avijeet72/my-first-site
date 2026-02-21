@@ -2,29 +2,109 @@
 <html>
 <head>
   <title>Avijeet Kumar | Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: linear-gradient(135deg, #1e3c72, #2a5298);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+    }
+
+    .card {
+      background: white;
+      width: 90%;
+      max-width: 800px;
+      padding: 40px;
+      border-radius: 15px;
+      box-shadow: 0 15px 35px rgba(0,0,0,0.2);
+      text-align: center;
+    }
+
+    h1 {
+      font-size: 42px;
+      margin-bottom: 5px;
+    }
+
+    .subtitle {
+      color: #666;
+      margin-bottom: 30px;
+    }
+
+    h2 {
+      margin-top: 30px;
+      color: #2a5298;
+    }
+
+    p {
+      color: #444;
+      line-height: 1.6;
+    }
+
+    .skills span {
+      display: inline-block;
+      background: #2a5298;
+      color: white;
+      padding: 8px 14px;
+      margin: 5px;
+      border-radius: 20px;
+      font-size: 14px;
+    }
+
+    .email a {
+      text-decoration: none;
+      color: #1e3c72;
+      font-weight: bold;
+    }
+
+    .email a:hover {
+      text-decoration: underline;
+    }
+
+    hr {
+      margin: 30px 0;
+      border: none;
+      height: 1px;
+      background: #eee;
+    }
+  </style>
 </head>
+
 <body>
 
-  <h1><strong>Avijeet Kumar</strong></h1>
-  <p>A passionate web developer 🚀</p>
+  <div class="card">
+    <h1><strong>Avijeet Kumar</strong></h1>
+    <p class="subtitle">A passionate web developer 🚀</p>
 
-  <hr>
+    <hr>
 
-  <h2>About Me</h2>
-  <p>I am learning web development and building cool projects.</p>
+    <h2>About Me</h2>
+    <p>
+      I am learning web development and building modern, responsive websites.
+      My goal is to become a skilled full-stack developer.
+    </p>
 
-  <h2>Skills</h2>
-  <ul>
-    <li>HTML</li>
-    <li>CSS</li>
-    <li>GitHub</li>
-  </ul>
+    <h2>Skills</h2>
+    <div class="skills">
+      <span>HTML</span>
+      <span>CSS</span>
+      <span>GitHub</span>
+    </div>
 
-  <h2>Projects</h2>
-  <p>My first website deployed with Vercel 🎉</p>
+    <h2>Projects</h2>
+    <p>My first website deployed with Vercel 🎉</p>
 
-  <h2>Contact</h2>
-  <p>Email: your@email.com</p>
+    <h2>Contact</h2>
+    <p class="email">
+      Email: <a href="mailto:avijeetroy072@gmail.com">
+      avijeetroy072@gmail.com</a>
+    </p>
+
+  </div>
 
 </body>
 </html>
