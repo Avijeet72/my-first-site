@@ -70,14 +70,9 @@
       box-shadow: 0 5px 15px rgba(0,0,0,0.5);
     }
 
-    h1 {
-      margin: 10px 0;
-    }
+    h1 { margin: 10px 0; }
 
-    p {
-      max-width: 600px;
-      margin: 0 auto 20px;
-    }
+    p { max-width: 600px; margin: 0 auto 20px; }
 
     .btn {
       display: inline-block;
@@ -103,17 +98,10 @@
       transition: all 1s ease;
     }
 
-    .section.visible {
-      opacity: 1;
-      transform: translateY(0);
-    }
+    .section.visible { opacity:1; transform:translateY(0); }
 
-    h2 {
-      color: #3b82f6;
-      margin-bottom: 30px;
-    }
+    h2 { color: #3b82f6; margin-bottom:30px; }
 
-    /* Projects cards */
     .projects-container {
       display: flex;
       flex-wrap: wrap;
@@ -141,12 +129,8 @@
       box-shadow: 0 10px 25px rgba(59,130,246,0.5);
     }
 
-    .project-card h3 {
-      margin-top: 0;
-      color: #3b82f6;
-    }
+    .project-card h3 { margin-top:0; color:#3b82f6; }
 
-    /* Skills bars */
     .skill {
       margin: 15px 0;
       text-align: left;
@@ -155,24 +139,22 @@
       margin-right: auto;
     }
 
-    .skill-name {
-      margin-bottom: 5px;
-    }
+    .skill-name { margin-bottom:5px; }
 
     .skill-bar {
       background: #334155;
-      border-radius: 5px;
-      overflow: hidden;
+      border-radius:5px;
+      overflow:hidden;
     }
 
     .skill-bar-fill {
-      background: #3b82f6;
-      height: 20px;
-      width: 0;
-      border-radius: 5px;
-      text-align: right;
-      padding-right: 5px;
-      line-height: 20px;
+      background:#3b82f6;
+      height:20px;
+      width:0;
+      border-radius:5px;
+      text-align:right;
+      padding-right:5px;
+      line-height:20px;
       transition: width 1.5s;
     }
   </style>
@@ -181,7 +163,6 @@
 
 <canvas id="particles"></canvas>
 
-<!-- Navigation -->
 <nav>
   <a href="#">Home</a>
   <a href="#about">About</a>
@@ -190,7 +171,6 @@
   <a href="#contact">Contact</a>
 </nav>
 
-<!-- Hero / Profile -->
 <div class="container">
   <img src="profile.jpeg" alt="Profile Photo">
   <h1><strong>Avijeet Kumar</strong></h1>
@@ -203,30 +183,28 @@
   </p>
 </div>
 
-<!-- About Section -->
 <div class="section" id="about">
   <h2>About Me</h2>
   <p>I am building my journey as a future software engineer, focusing on full-stack web development, problem solving, and creating projects that impact real-world scenarios. I enjoy learning new technologies, experimenting with code, and improving every day.</p>
 </div>
 
-<!-- Projects Section -->
 <div class="section" id="projects">
   <h2>Projects</h2>
   <div class="projects-container">
     <div class="project-card">
-      <img src="project1.png" alt="Project 1">
+      <img src="https://via.placeholder.com/300x200.png?text=Project+1" alt="Project 1">
       <h3>Project 1</h3>
       <p>Short description of your first project.</p>
       <a href="#" class="btn">View Project</a>
     </div>
     <div class="project-card">
-      <img src="project2.png" alt="Project 2">
+      <img src="https://via.placeholder.com/300x200.png?text=Project+2" alt="Project 2">
       <h3>Project 2</h3>
       <p>Short description of your second project.</p>
       <a href="#" class="btn">View Project</a>
     </div>
     <div class="project-card">
-      <img src="project3.png" alt="Project 3">
+      <img src="https://via.placeholder.com/300x200.png?text=Project+3" alt="Project 3">
       <h3>Project 3</h3>
       <p>Short description of your third project.</p>
       <a href="#" class="btn">View Project</a>
@@ -234,7 +212,6 @@
   </div>
 </div>
 
-<!-- Skills Section -->
 <div class="section" id="skills">
   <h2>Skills</h2>
   <div class="skill">
@@ -263,7 +240,6 @@
   </div>
 </div>
 
-<!-- Contact Section -->
 <div class="section" id="contact">
   <h2>Contact</h2>
   <p>Email: <a href="mailto:avijeetroy072@gmail.com" style="color:#3b82f6;">avijeetroy072@gmail.com</a></p>
@@ -272,7 +248,6 @@
   <a href="CV.pdf" class="btn" download>Download CV</a>
 </div>
 
-<!-- Scripts -->
 <script>
   // Animate skills bars
   window.addEventListener('load', () => {
